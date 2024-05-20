@@ -10,8 +10,8 @@ export default function Home() {
           <Heading size="9" className="text-center">Hello! I'm <span style={{ color: '#E796F3' }}>Pulse</span></Heading>
           <Text className="text-center text-gray-500">A moderation guilded bot. suited to protect your server! Pulse provides users with easy and customizable features.</Text>
           <Flex gap="2">
-            <Button size="3" variant="soft">Invite <ExternalLinkIcon /> </Button>
-            <Button size="3" variant="soft">Support <ExternalLinkIcon /> </Button>
+            <Button size="3" color="gray" variant="soft">Invite <ExternalLinkIcon /> </Button>
+            <Button size="3" color="gray" variant="soft">Support <ExternalLinkIcon /> </Button>
           </Flex>
         </Flex>
       </Container>
